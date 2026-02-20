@@ -59,13 +59,13 @@ def siteyi_bul():
             print(f"{RED}[-] {url} erişilemedi.{RESET}")
     return None
 
-def find_baseurl(url):
+def find_baseUrl(url):
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
     except requests.RequestException:
         return None
-    match = re.search(r'baseurl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
+    match = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
     if match:
         return match.group(1)
     return None
