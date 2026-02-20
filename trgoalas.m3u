@@ -2,19 +2,19 @@
 #EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD (VIP)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1540.xyz/
-https://no6.d72577a9dd0ec27.sbs/yayinzirve.m3u8
+https://no6.d72577a9dd0ec27.sbs/trgoals/mono.m3u8
 #EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",Bein Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1540.xyz/
-https://no6.d72577a9dd0ec27.sbs/yayin1.m3u8
+https://no6.d72577a9dd0ec27.sbs/b1/mono.m3u8
 #EXTINF:-1 tvg-id="BeinSports2.tr" tvg-name="Bein Sports 2 HD",Bein Sports 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1540.xyz/
-https://no6.d72577a9dd0ec27.sbs/yayinb2.m3u8
+https://no6.d72577a9dd0ec27.sbs/b2/mono.m3u8
 #EXTINF:-1 tvg-id="BeinSports3.tr" tvg-name="Bein Sports 3 HD",Bein Sports 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1540.xyz/
-https://no6.d72577a9dd0ec27.sbs/yayinb3.m3u8
+https://no6.d72577a9dd0ec27.sbs/b3/mono.m3u8
 #EXTINF:-1 tvg-id="BeinSports4.tr" tvg-name="Bein Sports 4 HD",Bein Sports 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1540.xyz/
