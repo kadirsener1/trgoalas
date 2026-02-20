@@ -29,7 +29,7 @@ jobs:
         pip install requests
 
     - name: Run script
-      run: python trgoalas.py
+      run: python tr.py
 
     - name: Verify m3u file
       run: |
