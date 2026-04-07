@@ -59,25 +59,25 @@ def siteyi_bul():
             print(f"{RED}[-] {url} erişilemedi.{RESET}")
     return None
 
-def find_baseUrl(url):
+def find_mainUrl(url):
     try:
         r = requests.get(url, timeout=10)
         r.raise_for_status()
     except requests.RequestException:
         return None
-    match = re.search(r'baseUrl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
+    match = re.search(r'mainUrl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
     if match:
         return match.group(1)
     return None
 
-def generate_m3u(base_url, referer, user_agent):
+def generate_m3u(Main_url, referer, user_agent):
     lines = ["#EXTM3U"]
     for idx, k in enumerate(KANALLAR, start=1):
         name = f"{k['kanal_adi']}"
         lines.append(f'#EXTINF:-1 tvg-id="{k["tvg_id"]}" tvg-name="{name}",{name}')
         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
-        lines.append(base_url + k["dosya"])
+        lines.append(main_url + k["dosya"])
         print(f"  ✔ {idx:02d}. {name}")
     return "\n".join(lines)
 
@@ -87,13 +87,13 @@ if __name__ == "__main__":
         print(f"{RED}[HATA] Yayın yapan site bulunamadı.{RESET}")
         sys.exit(1)
 
-    channel_url = site.rstrip("/") + "/channel.html?id=taraftarium"
-    base_url = find_baseUrl(channel_url)
+    channel_url = site.rstrip("/") + "/matches?id=bein-sports-1"
+    base_url = find_mainUrl(channel_url)
     if not base_url:
-        print(f"{RED}[HATA] Base URL bulunamadı.{RESET}")
+        print(f"{RED}[HATA] Main URL bulunamadı.{RESET}")
         sys.exit(1)
 
-    playlist = generate_m3u(base_url, site, "Mozilla/5.0")
+    playlist = generate_m3u(main_url, site, "Mozilla/5.0")
     with open("trgoalas.m3u", "w", encoding="utf-8") as f:
         f.write(playlist)
 
