@@ -45,7 +45,7 @@ KANALLAR = [
 
 def siteyi_bul():
     print(f"\n{GREEN}[*] Site aranıyor...{RESET}")
-    for i in range(490, 550):
+    for i in range(490, 555):
         url = f"https://atomsportv{i}.top/"
         try:
             r = requests.get(url, timeout=5)
