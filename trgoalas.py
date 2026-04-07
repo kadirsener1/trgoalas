@@ -50,7 +50,7 @@ def siteyi_bul():
         try:
             r = requests.get(url, timeout=5)
             if r.status_code == 200:
-                if "channel.html?id=" in r.text:
+                if "matches?id=" in r.text:
                     print(f"{GREEN}[OK] Yayın bulundu: {url}{RESET}")
                     return url
                 else:
