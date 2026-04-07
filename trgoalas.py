@@ -10,7 +10,7 @@ RESET = "\033[0m"
 
 # Kanallar listesi
 KANALLAR = [
-    {"dosya": "taraftarium/mono.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD (VIP)"},
+    {"dosya": "hls/bein-sports-11.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD (VIP)"},
     {"dosya": "b1/mono.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD"},
     {"dosya": "b2/mono.m3u8", "tvg_id": "BeinSports2.tr", "kanal_adi": "Bein Sports 2 HD"},
     {"dosya": "b3/mono.m3u8", "tvg_id": "BeinSports3.tr", "kanal_adi": "Bein Sports 3 HD"},
@@ -46,7 +46,7 @@ KANALLAR = [
 def siteyi_bul():
     print(f"\n{GREEN}[*] Site aranıyor...{RESET}")
     for i in range(1000, 1100):
-        url = f"https://taraftarium{i}.xyz/"
+        url = f"https://atomsportv{i}.top/"
         try:
             r = requests.get(url, timeout=5)
             if r.status_code == 200:
