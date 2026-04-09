@@ -1,0 +1,45 @@
+name: İnat TV M3U Güncelleyici
+
+on:
+  schedule:
+    # Her 6 saatte bir çalışır (UTC): 00:00, 06:00, 12:00, 18:00
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:     # Manuel tetikleme butonu
+    inputs:
+      force_update:
+        description: 'Zorla güncelle (evet/hayir)'
+        required: false
+        default: 'hayir'
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repoyu Checkout Et
+        uses: actions/checkout@v4
+
+      - name: Python Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Bağımlılıkları Yükle
+        run: pip install -r requirements.txt
+
+      - name: Scraper'ı Çalıştır
+        run: python scraper.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Değişiklikleri Commit ve Push Et
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add playlist.m3u state.json
+          # Değişiklik yoksa commit atma
+          git diff --staged --quiet || git commit -m "🔄 M3U güncellendi: $(date '+%Y-%m-%d %H:%M UTC')"
+          git push
