@@ -1,7 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD (VIP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:https://atomsportv494.top/
+#EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD inat
+#EXTVLCOPT:http-referrer=https://inattv1289.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0...
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
 #EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",Bein Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
