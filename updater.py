@@ -29,9 +29,9 @@ def update_m3u(urls):
         f.writelines(lines)
 
 def run():
-    sources = [
-        "https://YOUR-OWN-SITE.com"
-    ]
+   sources = [
+    "https://inattv1289.xyz"
+]
 
     state = load_state()
     old = set(state["urls"])
