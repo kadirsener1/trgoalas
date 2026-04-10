@@ -1,1 +1,10 @@
+#EXTM3U
 
+# === İnat TV Kanalları (inattv1289.xyz) - Son Güncelleme: 2026-04-10 06:06:22 UTC ===
+#EXTINF:-1 tvg-name="Playlist" group-title="İnat TV",Playlist
+#EXTVLCOPT:http-referrer=https://inattv1289.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+https://video.bsky.app/watch/did%3Aplc%3A5v2gycy4xz2jx6lpcvu2mw7b/bafkreiew5e4zilmdo3g5dff4tuwsnc2l643ap7sfmzwd7r7b3slarn7e6y/playlist.m3u8
+# === İnat TV Sonu ===
