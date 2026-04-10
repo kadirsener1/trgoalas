@@ -1,29 +1,34 @@
 from playwright.sync_api import sync_playwright
 
-MEDIA_EXTENSIONS = [".m3u8", ".mp4", ".ts"]
-
 def crawl_media(url):
     found = set()
 
-    def on_response(response):
+    def handle_response(response):
         try:
-            rurl = response.url
-            if any(ext in rurl for ext in MEDIA_EXTENSIONS):
-                found.add(rurl)
+            u = response.url
+            if ".m3u8" in u:
+                found.add(u)
         except:
             pass
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context()
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox"]
+        )
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0"
+        )
 
         page = context.new_page()
-        page.on("response", on_response)
+        page.on("response", handle_response)
 
-        page.goto(url, wait_until="networkidle", timeout=60000)
-
-        # ekstra JS tetikleme
-        page.wait_for_timeout(5000)
+        try:
+            page.goto(url, timeout=90000)
+            page.wait_for_timeout(8000)
+        except:
+            pass
 
         browser.close()
 
