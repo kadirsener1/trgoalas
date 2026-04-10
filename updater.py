@@ -1,3 +1,5 @@
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import json
 import requests
 from parser import extract_m3u8
@@ -17,7 +19,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def fetch_sources(url):
-    r = requests.get(url, timeout=10)
+    r = requests.get(url, timeout=10, verify=False)
     return r.text
 
 def update_playlist(new_urls):
