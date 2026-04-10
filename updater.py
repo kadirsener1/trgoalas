@@ -1,8 +1,5 @@
-import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import json
-import requests
-from parser import extract_m3u8
+from scraper import crawl_media
 
 STATE_FILE = "state.json"
 M3U_FILE = "playlist.m3u"
@@ -14,50 +11,43 @@ def load_state():
     except:
         return {"urls": []}
 
-def save_state(state):
+def save_state(data):
     with open(STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2)
+        json.dump(data, f, indent=2)
 
-def fetch_sources(url):
-    r = requests.get(url, timeout=10, verify=False)
-    return r.text
-
-def update_playlist(new_urls):
+def update_m3u(urls):
     with open(M3U_FILE, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # eski linkleri temizle
+    # sadece eski media linkleri temizle
     lines = [l for l in lines if not l.startswith("http")]
 
-    # yeni linkleri ekle
-    for u in new_urls:
+    for u in urls:
         lines.append(u + "\n")
 
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.writelines(lines)
 
 def run():
-    import json
-    with open("config.json") as f:
-        config = json.load(f)
+    sources = [
+        "https://YOUR-OWN-SITE.com"
+    ]
 
     state = load_state()
-    old_urls = set(state["urls"])
+    old = set(state["urls"])
+    new = set()
 
-    all_urls = set()
+    for s in sources:
+        results = crawl_media(s)
+        new.update(results)
 
-    for src in config["sources"]:
-        html = fetch_sources(src)
-        urls = extract_m3u8(html)
-        all_urls.update(urls)
-
-    added = list(all_urls - old_urls)
+    added = new - old
 
     if added:
-        print(f"{len(added)} yeni link bulundu")
+        print(f"{len(added)} yeni medya bulundu")
 
-        update_playlist(all_urls)
-        save_state({"urls": list(all_urls)})
+        update_m3u(new)
+        save_state({"urls": list(new)})
     else:
         print("Değişiklik yok")
 
