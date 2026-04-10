@@ -4,11 +4,12 @@
 # Toplam   : 26 INA TV + 0 diger
 
 # ===== INA TV CANLI YAYINLAR =====
-#EXTINF:-1 tvg-id="as" tvg-name="A Spor7/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=as",A Spor7/24CANLI
-#EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=as
+#EXTINF:-1 tvg-id="as" tvg-name="A Spor7/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz",A Spor7/24CANLI
+#EXTVLCOPT:http-referrer=https://inattv1290.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://3e8.d72577a9dd0ec47.sbs/as/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Das&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="atv" tvg-name="ATV7/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=atv",ATV7/24CANLI
+https://3e8.d72577a9dd0ec47.sbs/as/mono.m3u8
+
+#EXTINF:-1 tvg-id="atv" tvg-name="ATV7/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=atv",ATV7/24CANLI n
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=atv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://3e8.d72577a9dd0ec47.sbs/atv/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Datv&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
