@@ -1,5 +1,5 @@
 import json
-from scraper import crawl_media
+from scraper import crawl
 
 STATE_FILE = "state.json"
 M3U_FILE = "playlist.m3u"
@@ -18,41 +18,39 @@ def save_state(data):
         json.dump(data, f, indent=2)
 
 
-def update_m3u(urls):
-    with open(M3U_FILE, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    # sadece link satırlarını temizle
-    lines = [l for l in lines if not l.startswith("http")]
-
-    for u in urls:
-        lines.append(u + "\n")
-
+def write_m3u(urls):
     with open(M3U_FILE, "w", encoding="utf-8") as f:
-        f.writelines(lines)
+        f.write("#EXTM3U\n")
+        for u in urls:
+            f.write(u + "\n")
 
 
 def run():
 
+    # GENEL KAYNAK LİSTESİ (izinli / kendi siten olmalı)
     sources = [
-        "https://inattv1289.xyz"
+        "https://example.com"
     ]
 
     state = load_state()
-    old_urls = set(state["urls"])
-    new_urls = set()
+
+    old = set(state["urls"])
+    new = set()
 
     for s in sources:
         print("Crawling:", s)
-        results = crawl_media(s)
-        new_urls.update(results)
+        results = crawl(s)
+        new.update(results)
 
-    added = new_urls - old_urls
+    added = new - old
+
+    print("Toplam:", len(new))
+    print("Yeni:", len(added))
 
     if added:
-        print("Yeni linkler:", len(added))
-        update_m3u(new_urls)
-        save_state({"urls": list(new_urls)})
+        write_m3u(new)
+        save_state({"urls": list(new)})
+        print("M3U güncellendi")
     else:
         print("Değişiklik yok")
 
