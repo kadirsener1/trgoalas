@@ -1,5 +1,9 @@
-#EXTM3U x-tvg-url="" playlist-name="INA TV Playlist" playlist-desc="INA TV - Son Güncelleme: 2026-04-10 08:47:57"
-# Oluşturulma: 2026-04-10 08:47:57
+#EXTM3U playlist-name="INA TV" playlist-desc="Son güncelleme: 2026-04-10 08:56:20"
+# Otomatik güncellendi: 2026-04-10 08:56:20
 # Kaynak: https://inattv1289.xyz/
 
 # ===== INA TV KANALLARI =====
+#EXTINF:-1 tvg-id="inattv" tvg-name="iNat TV" tvg-logo="https://inattv1290.xyz/images/logo.png" group-title="INA TV",iNat TV
+https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+#EXTINF:-1 tvg-id="inattv" tvg-name="iNat TV" tvg-logo="https://inattv1290.xyz/images/logo.png" group-title="INA TV",iNat TV
+https://video.bsky.app/watch/did%3Aplc%3A5v2gycy4xz2jx6lpcvu2mw7b/bafkreiew5e4zilmdo3g5dff4tuwsnc2l643ap7sfmzwd7r7b3slarn7e6y/playlist.m3u8
