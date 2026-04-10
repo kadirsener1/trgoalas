@@ -1,0 +1,57 @@
+# .github/workflows/update_playlist.yml
+name: INA TV M3U Auto Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Tüm geçmişi çek
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Chrome
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y google-chrome-stable
+
+    - name: Install Python Packages
+      run: |
+        pip install -q requests beautifulsoup4 selenium \
+                       webdriver-manager PyGithub
+
+    - name: Run Updater
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPO: ${{ github.repository }}
+      run: python updater.py
+
+    - name: Pull Before Push
+      run: |
+        git config user.email "bot@github.com"
+        git config user.name "M3U Bot"
+        git pull --rebase origin main  # ÖNEMLİ: Önce pull yap
+
+    - name: Commit and Push Changes
+      run: |
+        git add -A
+        git diff --staged --quiet && echo "Değişiklik yok" || \
+          git commit -m "🔄 Auto update $(date '+%Y-%m-%d %H:%M')"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
