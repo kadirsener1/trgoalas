@@ -9,73 +9,50 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
-    
+
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-    - name: Install Chrome
-      run: |
-        sudo apt-get update -qq
-        sudo apt-get install -y google-chrome-stable
+      - name: Install Chrome
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y google-chrome-stable xvfb
 
-    - name: Install Python Packages
-      run: |
-        pip install -q requests beautifulsoup4 selenium \
-                       webdriver-manager PyGithub
+      - name: Install Dependencies
+        run: |
+          pip install -q \
+            requests \
+            beautifulsoup4 \
+            selenium \
+            webdriver-manager \
+            PyGithub
 
-    - name: Git Config
-      run: |
-        git config user.email "action@github.com"
-        git config user.name "GitHub Action Bot"
+      - name: Run Scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO:  ${{ github.repository }}
+        run: python updater.py
 
-    - name: Run Updater
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPO: ${{ github.repository }}
-      run: python updater.py
-
-    - name: Push with Retry
-      run: |
-        # Remote'u fetch et
-        git fetch origin main
-        
-        # Staged dosyaları kontrol et
-        git add -A
-        
-        if git diff --staged --quiet; then
-          echo "✅ Değişiklik yok, push atlanıyor"
-          exit 0
-        fi
-        
-        # Commit yap
-        git commit -m "🔄 INA TV Güncellendi - $(date '+%Y-%m-%d %H:%M')"
-        
-        # Push dene (3 kez)
-        for i in 1 2 3; do
-          echo "Push denemesi $i..."
-          
-          git pull --rebase origin main && \
-          git push origin main && \
-          echo "✅ Push başarılı!" && \
-          exit 0
-          
-          echo "⚠️ Deneme $i başarısız, tekrar deneniyor..."
-          sleep 5
-        done
-        
-        echo "❌ Push başarısız!"
-        exit 1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit & Push
+        run: |
+          git config user.email "action@github.com"
+          git config user.name  "M3U Bot"
+          git fetch origin main
+          git pull --rebase origin main
+          git add -A
+          git diff --staged --quiet || \
+            git commit -m "🔄 Auto update $(date '+%Y-%m-%d %H:%M')"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
