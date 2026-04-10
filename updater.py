@@ -29,7 +29,7 @@ def run():
 
     # GENEL KAYNAK LİSTESİ (izinli / kendi siten olmalı)
     sources = [
-        "https://example.com"
+        "https://inattv1289.xyz/"
     ]
 
     state = load_state()
