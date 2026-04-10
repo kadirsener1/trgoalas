@@ -27,7 +27,7 @@ jobs:
       - name: Install Chrome
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y google-chrome-stable xvfb
+          sudo apt-get install -y google-chrome-stable
 
       - name: Install Dependencies
         run: |
@@ -44,15 +44,29 @@ jobs:
           GITHUB_REPO:  ${{ github.repository }}
         run: python updater.py
 
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
-          git config user.email "action@github.com"
-          git config user.name  "M3U Bot"
-          git fetch origin main
-          git pull --rebase origin main
+          git config --global user.email "action@github.com"
+          git config --global user.name "M3U Bot"
+          
+          # Remote URL'yi token ile ayarla
+          git remote set-url origin \
+            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          
+          # Değişiklikleri ekle
           git add -A
-          git diff --staged --quiet || \
-            git commit -m "🔄 Auto update $(date '+%Y-%m-%d %H:%M')"
+          
+          # Değişiklik var mı kontrol et
+          if git diff --staged --quiet; then
+            echo "✅ Değişiklik yok"
+            exit 0
+          fi
+          
+          # Commit yap
+          git commit -m "🔄 Auto update $(date '+%Y-%m-%d %H:%M')"
+          
+          # Push et (rebase ile)
+          git pull --rebase origin main
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          echo "✅ Push başarılı!"
