@@ -1,0 +1,43 @@
+2026-04-10 08:47:46,261 [INFO] ============================================================
+2026-04-10 08:47:46,261 [INFO] 🚀 INA TV M3U Güncelleme Scripti Başlatıldı
+2026-04-10 08:47:46,261 [INFO] 📅 2026-04-10 08:47:46
+2026-04-10 08:47:46,261 [INFO] ============================================================
+2026-04-10 08:47:46,262 [INFO] 
+📡 Site taranıyor...
+2026-04-10 08:47:46,262 [INFO] Site taranıyor: https://inattv1289.xyz/
+2026-04-10 08:47:46,262 [INFO] ====== WebDriver manager ======
+2026-04-10 08:47:46,403 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:47:46,488 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:47:46,523 [INFO] There is no [linux64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-04-10 08:47:46,523 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:47:46,627 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-10 08:47:46,632 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-10 08:47:46,632 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-10 08:47:46,680 [INFO] Driver downloading response is 200
+2026-04-10 08:47:46,731 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:47:46,876 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165]
+2026-04-10 08:47:47,291 [INFO] Selenium WebDriver başarıyla başlatıldı.
+2026-04-10 08:47:47,291 [INFO] Ziyaret ediliyor: https://inattv1289.xyz/
+2026-04-10 08:47:57,602 [INFO] Toplam 0 kanal/link bulundu.
+2026-04-10 08:47:57,664 [INFO] Selenium kapatıldı.
+2026-04-10 08:47:57,664 [WARNING] ⚠️ Hiç kanal bulunamadı! Site yapısı değişmiş olabilir.
+2026-04-10 08:47:57,664 [INFO] Test modu: Manuel kanal ekleniyor...
+2026-04-10 08:47:57,664 [INFO] 
+📝 M3U dosyası güncelleniyor...
+2026-04-10 08:47:57,664 [INFO] Mevcut M3U: 0 hedef kanal, 0 diğer kanal
+2026-04-10 08:47:57,664 [INFO] 
+Özet: 0 güncellendi, 0 eklendi, 0 değişmedi
+2026-04-10 08:47:57,665 [INFO] M3U dosyası yazıldı: inattv_playlist.m3u (217 bytes, 0 kanal)
+2026-04-10 08:47:57,665 [INFO] 
+☁️ GitHub'a yükleniyor...
+2026-04-10 08:47:57,940 [INFO] GitHub bağlantısı kuruldu: kadirsener1/trgoalas
+2026-04-10 08:47:59,220 [INFO] ✅ GitHub güncellendi: inattv_playlist.m3u
+2026-04-10 08:47:59,220 [INFO] 📡 M3U Raw URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
+2026-04-10 08:47:59,220 [INFO] Durum dosyası kaydedildi.
+2026-04-10 08:47:59,220 [INFO] 
+🎉 İşlem tamamlandı!
+2026-04-10 08:47:59,220 [INFO] 📺 IPTV Player URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
+2026-04-10 08:47:59,220 [INFO] 
+============================================================
+2026-04-10 08:47:59,220 [INFO] ✅ Script başarıyla tamamlandı
+2026-04-10 08:47:59,220 [INFO] ============================================================
