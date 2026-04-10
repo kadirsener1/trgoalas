@@ -1,22 +1,22 @@
 from playwright.sync_api import sync_playwright
 
-def crawl_media(url):
+MEDIA_EXT = [".m3u8", ".mp4", ".ts"]
+
+def crawl(url):
     found = set()
 
-    def log_request(request):
+    def handle_request(req):
         try:
-            u = request.url
-            if ".m3u8" in u:
-                found.add(u)
-            if ".ts" in u:
+            u = req.url
+            if any(ext in u for ext in MEDIA_EXT):
                 found.add(u)
         except:
             pass
 
-    def log_response(response):
+    def handle_response(res):
         try:
-            u = response.url
-            if ".m3u8" in u:
+            u = res.url
+            if any(ext in u for ext in MEDIA_EXT):
                 found.add(u)
         except:
             pass
@@ -33,15 +33,19 @@ def crawl_media(url):
 
         page = context.new_page()
 
-        page.on("request", log_request)
-        page.on("response", log_response)
+        page.on("request", handle_request)
+        page.on("response", handle_response)
 
-        print("OPEN:", url)
+        try:
+            page.goto(url, timeout=90000)
+            page.wait_for_timeout(12000)
 
-        page.goto(url, timeout=90000)
+            # JS tetikleme (video geç yüklenirse)
+            page.mouse.move(300, 300)
+            page.wait_for_timeout(5000)
 
-        # video geç yükleniyor olabilir
-        page.wait_for_timeout(15000)
+        except:
+            pass
 
         browser.close()
 
