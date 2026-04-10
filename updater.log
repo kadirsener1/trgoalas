@@ -41,3 +41,48 @@
 ============================================================
 2026-04-10 08:47:59,220 [INFO] ✅ Script başarıyla tamamlandı
 2026-04-10 08:47:59,220 [INFO] ============================================================
+2026-04-10 08:55:51,557 [INFO] ============================================================
+2026-04-10 08:55:51,557 [INFO] 🚀 INA TV M3U Güncelleyici
+2026-04-10 08:55:51,557 [INFO] ⏰ 2026-04-10 08:55:51.557496
+2026-04-10 08:55:51,557 [INFO] ============================================================
+2026-04-10 08:55:51,557 [INFO] Mevcut M3U: 0 INA TV, 0 diğer kanal
+2026-04-10 08:55:51,557 [INFO] ====== WebDriver manager ======
+2026-04-10 08:55:51,702 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:55:51,743 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:55:51,774 [INFO] There is no [linux64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-04-10 08:55:51,774 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:55:51,870 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-10 08:55:51,875 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-10 08:55:51,875 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-10 08:55:51,911 [INFO] Driver downloading response is 200
+2026-04-10 08:55:52,032 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-10 08:55:52,172 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165]
+2026-04-10 08:55:59,743 [INFO] Toplam 1 sayfa bulundu
+2026-04-10 08:55:59,743 [INFO] 
+1 sayfa taranacak
+
+2026-04-10 08:55:59,744 [INFO] [1/1] https://inattv1289.xyz/
+2026-04-10 08:56:09,647 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:09,655 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:09,656 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:09,701 [INFO]     🖼️ iframe bulundu: https://inattv1290.xyz/channel.html?id=zirve
+2026-04-10 08:56:12,740 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:12,748 [INFO]     🖼️ iframe bulundu: https://inattv1290.xyz/puan.html
+2026-04-10 08:56:15,771 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:15,777 [INFO]     🖼️ iframe bulundu: https://inattv1290.xyz/sayac.html
+2026-04-10 08:56:18,795 [INFO]     🌐 [Network] https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:18,813 [INFO]   ✅ iNat TV: https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:18,814 [INFO]   ✅ iNat TV: https://video.bsky.app/watch/did%3Aplc%3A5v2gycy4xz2jx6lpcvu2mw7b/bafkreiew5e4zilmdo3g5dff4tuwsnc2l643ap7sfmzwd7r7b3slarn7e6y/playlist.m3u8
+2026-04-10 08:56:20,889 [INFO] 
+============================================================
+2026-04-10 08:56:20,889 [INFO] TOPLAM: 2 link bulundu
+2026-04-10 08:56:20,889 [INFO] ============================================================
+
+2026-04-10 08:56:20,889 [INFO]   ➕ Yeni kanal: iNat TV -> https://3e8.d72577a9dd0ec47.sbs/zirve/mono.m3u8
+2026-04-10 08:56:20,889 [INFO]   ➕ Yeni kanal: iNat TV -> https://video.bsky.app/watch/did%3Aplc%3A5v2gycy4xz2jx6lpcvu2mw7b/bafkreiew5e4zilmdo3g5dff4tuwsnc2l643ap7sfmzwd7r7b3slarn7e6y/playlist.m3u8
+2026-04-10 08:56:20,890 [INFO] Sonuç: 0 güncellendi, 2 eklendi, 0 değişmedi
+2026-04-10 08:56:20,890 [INFO] ✅ M3U yazıldı: 2 INA TV, 0 diğer
+2026-04-10 08:56:22,234 [INFO] ✅ GitHub güncellendi
+2026-04-10 08:56:22,234 [INFO] 📺 M3U URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
+2026-04-10 08:56:22,235 [INFO] 
+✅ Tamamlandı!
