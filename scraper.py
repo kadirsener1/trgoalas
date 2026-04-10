@@ -1,36 +1,23 @@
 import re
 import json
 import time
-import os
-import sys
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-from datetime import datetime, timezone
+from collections import deque
+from playwright.sync_api import sync_playwright
 
-BASE_DOMAIN = "inattv"
-BASE_TLD = ".xyz"
-START_NUMBER = 1289
-MAX_SEARCH = 50
-M3U_FILE = "playlist.m3u"
 STATE_FILE = "state.json"
-REQUEST_DELAY = 1
+M3U_FILE = "playlist.m3u"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
-    "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
-}
+MAX_PAGES = 50
+DELAY = 1
 
 
 # ───────── STATE ─────────
 def load_state():
-    if os.path.exists(STATE_FILE):
-        try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except:
-            pass
-    return {"last_number": START_NUMBER}
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {"visited": [], "queue": []}
 
 
 def save_state(state):
@@ -38,141 +25,99 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
-# ───────── DOMAIN ─────────
-def build_url(num):
-    return f"https://{BASE_DOMAIN}{num}{BASE_TLD}/"
+# ───────── M3U8 COLLECTOR ─────────
+def extract_m3u8(page):
+    found = []
+
+    def on_response(resp):
+        try:
+            if ".m3u8" in resp.url:
+                found.append(resp.url)
+        except:
+            pass
+
+    page.on("response", on_response)
+
+    html = page.content()
+    found += re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html)
+
+    return found[0] if found else None
 
 
-def is_alive(url):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=8)
-        return r.status_code in (200, 301, 302)
-    except:
-        return False
+# ───────── CRAWLER ─────────
+def crawl(start_urls):
+    state = load_state()
+    visited = set(state["visited"])
+    queue = deque(state["queue"] or start_urls)
 
+    results = []
 
-def find_domain(last):
-    base = build_url(last)
-    if is_alive(base):
-        return last, base
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    for i in range(1, MAX_SEARCH):
-        for n in (last + i, last - i):
-            if n <= 0:
+        while queue and len(visited) < MAX_PAGES:
+            url = queue.popleft()
+
+            if url in visited:
                 continue
-            url = build_url(n)
-            if is_alive(url):
-                return n, url
-            time.sleep(1)
 
-    return None, None
+            print(f"[→] Visiting: {url}")
+            visited.add(url)
 
-
-# ───────── M3U8 EXTRACT (FIX CORE) ─────────
-def extract_m3u8(session, url):
-    try:
-        r = session.get(url, timeout=12)
-        html = r.text
-
-        # 1. direkt m3u8
-        links = re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html)
-
-        # 2. JS fallback
-        if not links:
-            links = re.findall(r'(https?://.*?\.m3u8.*?)["\']', html)
-
-        # 3. iframe içine gir
-        soup = BeautifulSoup(html, "lxml")
-        iframe = soup.find("iframe")
-
-        if iframe and iframe.get("src"):
             try:
-                r2 = session.get(urljoin(url, iframe["src"]), timeout=12)
-                html2 = r2.text
-                links += re.findall(r'https?://[^\s"\']+\.m3u8[^\s"\']*', html2)
-            except:
-                pass
+                page.goto(url, wait_until="networkidle", timeout=60000)
+                time.sleep(DELAY)
 
-        return links[0] if links else None
+                # m3u8 yakala
+                m3u8 = extract_m3u8(page)
 
-    except:
-        return None
+                if m3u8:
+                    print(f"[✓] M3U8: {m3u8}")
+                    results.append((url, m3u8))
 
+                # link keşfi
+                links = page.eval_on_selector_all(
+                    "a",
+                    "els => els.map(e => e.href)"
+                )
 
-# ───────── SCRAPER ─────────
-def scrape(base_url):
-    session = requests.Session()
-    session.headers.update(HEADERS)
+                for l in links:
+                    if l and l.startswith("http") and l not in visited:
+                        queue.append(l)
 
-    r = session.get(base_url, timeout=12)
-    soup = BeautifulSoup(r.text, "lxml")
+            except Exception as e:
+                print(f"[!] Error: {e}")
 
-    pages = []
+            # state kaydet
+            state["visited"] = list(visited)
+            state["queue"] = list(queue)
+            save_state(state)
 
-    for a in soup.find_all("a", href=True):
-        url = urljoin(base_url, a["href"])
-        if "channel.html" in url:
-            pages.append(url)
+        browser.close()
 
-    found = {}
-
-    for page in pages:
-        print(f"[→] {page}")
-
-        m3u8 = extract_m3u8(session, page)
-
-        if m3u8:
-            name = page.split("id=")[-1]
-
-            found[name] = {
-                "name": name,
-                "url": m3u8
-            }
-
-            print(f"[✓] FOUND: {m3u8}")
-
-        time.sleep(REQUEST_DELAY)
-
-    return list(found.values())
+    return results
 
 
-# ───────── M3U WRITE ─────────
-def write_m3u(channels):
+# ───────── M3U YAZ ─────────
+def save_m3u(data):
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
-        for ch in channels:
-            f.write(f"#EXTINF:-1,{ch['name']}\n")
-            f.write(ch["url"] + "\n\n")
+        for i, (page, m3u8) in enumerate(data):
+            f.write(f"#EXTINF:-1,Channel {i}\n")
+            f.write(m3u8 + "\n\n")
 
 
 # ───────── MAIN ─────────
-def main():
-    print("START SCRAPER")
-
-    state = load_state()
-
-    num, url = find_domain(state["last_number"])
-
-    if not url:
-        print("NO DOMAIN")
-        return
-
-    print("[✓] DOMAIN:", url)
-
-    channels = scrape(url)
-
-    if not channels:
-        print("NO M3U8 FOUND")
-        return
-
-    write_m3u(channels)
-
-    state["last_number"] = num
-    save_state(state)
-
-    print("[✓] DONE:", len(channels))
-
-
 if __name__ == "__main__":
-    main()
+
+    start_urls = [
+        "https://example.com"
+    ]
+
+    data = crawl(start_urls)
+
+    save_m3u(data)
+
+    print(f"[✓] DONE: {len(data)} streams")
