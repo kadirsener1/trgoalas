@@ -34,6 +34,21 @@ VLC_REFERER_TPL = "https://{domain}/"
 # ─── STATE YÖNETIMI ──────────────────────────────────────────────
 def load_state():
     if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                if not content:
+                    raise ValueError("Boş dosya")
+                return json.loads(content)
+        except Exception as e:
+            print(f"[!] state.json bozuk veya boş, sıfırlanıyor: {e}")
+    
+    return {
+        "last_number": START_NUMBER,
+        "last_domain": "",
+        "last_updated": ""
+    }
+    if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {"last_number": START_NUMBER, "last_domain": "", "last_updated": ""}
