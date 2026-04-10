@@ -3,7 +3,17 @@ from playwright.sync_api import sync_playwright
 def crawl_media(url):
     found = set()
 
-    def handle_response(response):
+    def log_request(request):
+        try:
+            u = request.url
+            if ".m3u8" in u:
+                found.add(u)
+            if ".ts" in u:
+                found.add(u)
+        except:
+            pass
+
+    def log_response(response):
         try:
             u = response.url
             if ".m3u8" in u:
@@ -22,13 +32,16 @@ def crawl_media(url):
         )
 
         page = context.new_page()
-        page.on("response", handle_response)
 
-        try:
-            page.goto(url, timeout=90000)
-            page.wait_for_timeout(8000)
-        except:
-            pass
+        page.on("request", log_request)
+        page.on("response", log_response)
+
+        print("OPEN:", url)
+
+        page.goto(url, timeout=90000)
+
+        # video geç yükleniyor olabilir
+        page.wait_for_timeout(15000)
 
         browser.close()
 
