@@ -1478,3 +1478,355 @@ Chrome kapatıldı
 2026-04-11 01:29:26,588 [INFO] ✅ Tamamlandı!
 2026-04-11 01:29:26,588 [INFO] 📺 IPTV URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
 2026-04-11 01:29:26,588 [INFO] =================================================================
+2026-04-11 06:51:30,493 [INFO] =================================================================
+2026-04-11 06:51:30,493 [INFO] 🚀 INA TV M3U8 Scraper Başladı
+2026-04-11 06:51:30,493 [INFO] ⏰ 2026-04-11 06:51:30
+2026-04-11 06:51:30,493 [INFO] 🌐 Hedef: https://inattv1290.xyz/
+2026-04-11 06:51:30,494 [INFO] =================================================================
+2026-04-11 06:51:30,494 [INFO] Mevcut M3U: 26 INA TV kanalı, 0 diğer kanal
+2026-04-11 06:51:30,494 [INFO] 
+Chrome başlatılıyor...
+2026-04-11 06:51:30,494 [INFO] ====== WebDriver manager ======
+2026-04-11 06:51:31,944 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-11 06:51:31,988 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-11 06:51:32,019 [INFO] There is no [linux64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-04-11 06:51:32,019 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-11 06:51:32,117 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-11 06:51:32,121 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-11 06:51:32,121 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-11 06:51:32,157 [INFO] Driver downloading response is 200
+2026-04-11 06:51:32,234 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-11 06:51:32,379 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165]
+2026-04-11 06:51:35,145 [INFO] Ana sayfa taranıyor: https://inattv1290.xyz/
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: Beşiktaş - Antalyaspor20:00 (zirve)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: Formula 1 - Antrenman Turları14:30 (b4)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: Karlsruher - A. Bielefeld19:30 (t3)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: F. Düsseldorf - Holstein Kiel19:30 (t2)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: Dubai - Anadolu Efes21:00 (ss)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: Augsburg - Hoffenheim21:30 (t1)
+2026-04-11 06:51:45,609 [INFO]   📺 Kanal bulundu: West Ham - Wolverhampton22:00 (b3)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: BeIN Sports 27/24CANLI (b2)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: BeIN Sports 57/24CANLI (b5)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: BeIN Max 17/24CANLI (bm1)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: BeIN Max 27/24CANLI (bm2)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: S Sport 27/24CANLI (ss2)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: Tivibu 47/24CANLI (t4)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: Smartspor7/24CANLI (smarts)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: Smartspor 27/24CANLI (sms2)
+2026-04-11 06:51:45,610 [INFO]   📺 Kanal bulundu: TRT Spor7/24CANLI (trtspor)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: TRT Spor 27/24CANLI (trtspor2)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: TRT 17/24CANLI (trt1)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: A Spor7/24CANLI (as)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: ATV7/24CANLI (atv)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: TV 87/24CANLI (tv8)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: TV 8,57/24CANLI (tv85)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: NBA TV7/24CANLI (nbatv)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: Euro Sport 17/24CANLI (eu1)
+2026-04-11 06:51:45,611 [INFO]   📺 Kanal bulundu: Euro Sport 27/24CANLI (eu2)
+2026-04-11 06:51:45,612 [INFO] 
+Toplam 25 kanal bulundu
+
+2026-04-11 06:51:45,612 [INFO] 
+─────────────────────────────────────────────────────────────────
+2026-04-11 06:51:45,612 [INFO] 📋 25 kanal taranacak
+2026-04-11 06:51:45,612 [INFO] ─────────────────────────────────────────────────────────────────
+
+2026-04-11 06:51:45,612 [INFO] [01/25] ────────────────────────────────────────
+2026-04-11 06:51:45,612 [INFO] 
+  🔍 Taranıyor: Beşiktaş - Antalyaspor20:00 -> https://inattv1290.xyz/channel.html?id=zirve
+2026-04-11 06:51:54,819 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:51:54,829 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:51:54,838 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:51:58,858 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:51:58,938 [INFO]   ✅ Beşiktaş - Antalyaspor20:00: 1 link bulundu
+2026-04-11 06:52:00,939 [INFO] [02/25] ────────────────────────────────────────
+2026-04-11 06:52:00,940 [INFO] 
+  🔍 Taranıyor: Formula 1 - Antrenman Turları14:30 -> https://inattv1290.xyz/channel.html?id=b4
+2026-04-11 06:52:10,290 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:52:10,290 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/b4/mono.m3u8
+2026-04-11 06:52:10,296 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:52:10,303 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:52:14,383 [INFO]   ✅ Formula 1 - Antrenman Turları14:30: 2 link bulundu
+2026-04-11 06:52:16,384 [INFO] [03/25] ────────────────────────────────────────
+2026-04-11 06:52:16,384 [INFO] 
+  🔍 Taranıyor: Karlsruher - A. Bielefeld19:30 -> https://inattv1290.xyz/channel.html?id=t3
+2026-04-11 06:52:25,736 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t3/mono.m3u8
+2026-04-11 06:52:25,747 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:52:25,766 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:52:29,786 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/t3/mono.m3u8
+2026-04-11 06:52:29,855 [INFO]   ✅ Karlsruher - A. Bielefeld19:30: 1 link bulundu
+2026-04-11 06:52:31,856 [INFO] [04/25] ────────────────────────────────────────
+2026-04-11 06:52:31,857 [INFO] 
+  🔍 Taranıyor: F. Düsseldorf - Holstein Kiel19:30 -> https://inattv1290.xyz/channel.html?id=t2
+2026-04-11 06:52:41,101 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:52:41,101 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t3/mono.m3u8
+2026-04-11 06:52:41,139 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:52:41,162 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:52:45,182 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:52:45,242 [INFO]   ✅ F. Düsseldorf - Holstein Kiel19:30: 2 link bulundu
+2026-04-11 06:52:47,243 [INFO] [05/25] ────────────────────────────────────────
+2026-04-11 06:52:47,244 [INFO] 
+  🔍 Taranıyor: Dubai - Anadolu Efes21:00 -> https://inattv1290.xyz/channel.html?id=ss
+2026-04-11 06:52:56,604 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/ss/mono.m3u8
+2026-04-11 06:52:56,604 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:52:56,611 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:52:56,619 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:53:00,694 [INFO]   ✅ Dubai - Anadolu Efes21:00: 2 link bulundu
+2026-04-11 06:53:02,695 [INFO] [06/25] ────────────────────────────────────────
+2026-04-11 06:53:02,695 [INFO] 
+  🔍 Taranıyor: Augsburg - Hoffenheim21:30 -> https://inattv1290.xyz/channel.html?id=t1
+2026-04-11 06:53:12,029 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:53:12,036 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:53:12,043 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:53:16,063 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:53:16,126 [INFO]   ✅ Augsburg - Hoffenheim21:30: 1 link bulundu
+2026-04-11 06:53:18,127 [INFO] [07/25] ────────────────────────────────────────
+2026-04-11 06:53:18,128 [INFO] 
+  🔍 Taranıyor: West Ham - Wolverhampton22:00 -> https://inattv1290.xyz/channel.html?id=b3
+2026-04-11 06:53:27,491 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:53:27,491 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/b3/mono.m3u8
+2026-04-11 06:53:27,499 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:53:27,509 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:53:31,528 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/b3/mono.m3u8
+2026-04-11 06:53:31,584 [INFO]   ✅ West Ham - Wolverhampton22:00: 2 link bulundu
+2026-04-11 06:53:33,585 [INFO] [08/25] ────────────────────────────────────────
+2026-04-11 06:53:33,585 [INFO] 
+  🔍 Taranıyor: BeIN Sports 27/24CANLI -> https://inattv1290.xyz/channel.html?id=b2
+2026-04-11 06:53:42,918 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/b2/mono.m3u8
+2026-04-11 06:53:42,918 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/b3/mono.m3u8
+2026-04-11 06:53:42,924 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:53:42,931 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:53:47,004 [INFO]   ✅ BeIN Sports 27/24CANLI: 2 link bulundu
+2026-04-11 06:53:49,005 [INFO] [09/25] ────────────────────────────────────────
+2026-04-11 06:53:49,006 [INFO] 
+  🔍 Taranıyor: BeIN Sports 57/24CANLI -> https://inattv1290.xyz/channel.html?id=b5
+2026-04-11 06:53:58,164 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/b5/mono.m3u8
+2026-04-11 06:53:58,170 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:53:58,179 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:54:02,252 [INFO]   ✅ BeIN Sports 57/24CANLI: 1 link bulundu
+2026-04-11 06:54:04,253 [INFO] [10/25] ────────────────────────────────────────
+2026-04-11 06:54:04,254 [INFO] 
+  🔍 Taranıyor: BeIN Max 17/24CANLI -> https://inattv1290.xyz/channel.html?id=bm1
+2026-04-11 06:54:13,587 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/bm1/mono.m3u8
+2026-04-11 06:54:13,593 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:54:13,600 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:54:17,687 [INFO]   ✅ BeIN Max 17/24CANLI: 1 link bulundu
+2026-04-11 06:54:19,688 [INFO] [11/25] ────────────────────────────────────────
+2026-04-11 06:54:19,688 [INFO] 
+  🔍 Taranıyor: BeIN Max 27/24CANLI -> https://inattv1290.xyz/channel.html?id=bm2
+2026-04-11 06:54:28,833 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/bm2/mono.m3u8
+2026-04-11 06:54:28,838 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:54:28,846 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:54:32,926 [INFO]   ✅ BeIN Max 27/24CANLI: 1 link bulundu
+2026-04-11 06:54:34,927 [INFO] [12/25] ────────────────────────────────────────
+2026-04-11 06:54:34,928 [INFO] 
+  🔍 Taranıyor: S Sport 27/24CANLI -> https://inattv1290.xyz/channel.html?id=ss2
+2026-04-11 06:54:44,091 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/ss2/mono.m3u8
+2026-04-11 06:54:44,097 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:54:44,104 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:54:48,176 [INFO]   ✅ S Sport 27/24CANLI: 1 link bulundu
+2026-04-11 06:54:50,177 [INFO] [13/25] ────────────────────────────────────────
+2026-04-11 06:54:50,178 [INFO] 
+  🔍 Taranıyor: Tivibu 47/24CANLI -> https://inattv1290.xyz/channel.html?id=t4
+2026-04-11 06:54:59,509 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/t4/mono.m3u8
+2026-04-11 06:54:59,515 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:54:59,523 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:55:03,541 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/t4/mono.m3u8
+2026-04-11 06:55:03,592 [INFO]   ✅ Tivibu 47/24CANLI: 1 link bulundu
+2026-04-11 06:55:05,592 [INFO] [14/25] ────────────────────────────────────────
+2026-04-11 06:55:05,593 [INFO] 
+  🔍 Taranıyor: Smartspor7/24CANLI -> https://inattv1290.xyz/channel.html?id=smarts
+2026-04-11 06:55:14,914 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/smarts/mono.m3u8
+2026-04-11 06:55:14,920 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:55:14,927 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:55:19,012 [INFO]   ✅ Smartspor7/24CANLI: 1 link bulundu
+2026-04-11 06:55:21,013 [INFO] [15/25] ────────────────────────────────────────
+2026-04-11 06:55:21,014 [INFO] 
+  🔍 Taranıyor: Smartspor 27/24CANLI -> https://inattv1290.xyz/channel.html?id=sms2
+2026-04-11 06:55:30,177 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/sms2/mono.m3u8
+2026-04-11 06:55:30,183 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:55:30,190 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:55:34,264 [INFO]   ✅ Smartspor 27/24CANLI: 1 link bulundu
+2026-04-11 06:55:36,265 [INFO] [16/25] ────────────────────────────────────────
+2026-04-11 06:55:36,266 [INFO] 
+  🔍 Taranıyor: TRT Spor7/24CANLI -> https://inattv1290.xyz/channel.html?id=trtspor
+2026-04-11 06:55:45,602 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/trtspor/mono.m3u8
+2026-04-11 06:55:45,608 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:55:45,616 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:55:49,635 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/trtspor/mono.m3u8
+2026-04-11 06:55:49,721 [INFO]   ✅ TRT Spor7/24CANLI: 1 link bulundu
+2026-04-11 06:55:51,723 [INFO] [17/25] ────────────────────────────────────────
+2026-04-11 06:55:51,723 [INFO] 
+  🔍 Taranıyor: TRT Spor 27/24CANLI -> https://inattv1290.xyz/channel.html?id=trtspor2
+2026-04-11 06:56:01,045 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/trtspor2/mono.m3u8
+2026-04-11 06:56:01,051 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:56:01,058 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:56:05,077 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/trtspor2/mono.m3u8
+2026-04-11 06:56:05,133 [INFO]   ✅ TRT Spor 27/24CANLI: 1 link bulundu
+2026-04-11 06:56:07,134 [INFO] [18/25] ────────────────────────────────────────
+2026-04-11 06:56:07,135 [INFO] 
+  🔍 Taranıyor: TRT 17/24CANLI -> https://inattv1290.xyz/channel.html?id=trt1
+2026-04-11 06:56:16,492 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/trt1/mono.m3u8
+2026-04-11 06:56:16,498 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:56:16,507 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:56:20,528 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/trt1/mono.m3u8
+2026-04-11 06:56:20,600 [INFO]   ✅ TRT 17/24CANLI: 1 link bulundu
+2026-04-11 06:56:22,602 [INFO] [19/25] ────────────────────────────────────────
+2026-04-11 06:56:22,602 [INFO] 
+  🔍 Taranıyor: A Spor7/24CANLI -> https://inattv1290.xyz/channel.html?id=as
+2026-04-11 06:56:31,945 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/as/mono.m3u8
+2026-04-11 06:56:31,951 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:56:31,959 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:56:36,045 [INFO]   ✅ A Spor7/24CANLI: 1 link bulundu
+2026-04-11 06:56:38,046 [INFO] [20/25] ────────────────────────────────────────
+2026-04-11 06:56:38,047 [INFO] 
+  🔍 Taranıyor: ATV7/24CANLI -> https://inattv1290.xyz/channel.html?id=atv
+2026-04-11 06:56:47,375 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/atv/mono.m3u8
+2026-04-11 06:56:47,381 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:56:47,389 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:56:51,408 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/atv/mono.m3u8
+2026-04-11 06:56:51,463 [INFO]   ✅ ATV7/24CANLI: 1 link bulundu
+2026-04-11 06:56:53,464 [INFO] [21/25] ────────────────────────────────────────
+2026-04-11 06:56:53,464 [INFO] 
+  🔍 Taranıyor: TV 87/24CANLI -> https://inattv1290.xyz/channel.html?id=tv8
+2026-04-11 06:57:02,801 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/tv8/mono.m3u8
+2026-04-11 06:57:02,806 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:57:02,814 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:57:06,832 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/tv8/mono.m3u8
+2026-04-11 06:57:06,898 [INFO]   ✅ TV 87/24CANLI: 1 link bulundu
+2026-04-11 06:57:08,899 [INFO] [22/25] ────────────────────────────────────────
+2026-04-11 06:57:08,900 [INFO] 
+  🔍 Taranıyor: TV 8,57/24CANLI -> https://inattv1290.xyz/channel.html?id=tv85
+2026-04-11 06:57:18,228 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/tv85/mono.m3u8
+2026-04-11 06:57:18,234 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:57:18,242 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:57:22,312 [INFO]   ✅ TV 8,57/24CANLI: 1 link bulundu
+2026-04-11 06:57:24,313 [INFO] [23/25] ────────────────────────────────────────
+2026-04-11 06:57:24,314 [INFO] 
+  🔍 Taranıyor: NBA TV7/24CANLI -> https://inattv1290.xyz/channel.html?id=nbatv
+2026-04-11 06:57:33,642 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/nbatv/mono.m3u8
+2026-04-11 06:57:33,648 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:57:33,655 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:57:37,724 [INFO]   ✅ NBA TV7/24CANLI: 1 link bulundu
+2026-04-11 06:57:39,725 [INFO] [24/25] ────────────────────────────────────────
+2026-04-11 06:57:39,726 [INFO] 
+  🔍 Taranıyor: Euro Sport 17/24CANLI -> https://inattv1290.xyz/channel.html?id=eu1
+2026-04-11 06:57:49,055 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/eu1/mono.m3u8
+2026-04-11 06:57:49,061 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:57:49,068 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:57:53,088 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/eu1/mono.m3u8
+2026-04-11 06:57:53,140 [INFO]   ✅ Euro Sport 17/24CANLI: 1 link bulundu
+2026-04-11 06:57:55,141 [INFO] [25/25] ────────────────────────────────────────
+2026-04-11 06:57:55,142 [INFO] 
+  🔍 Taranıyor: Euro Sport 27/24CANLI -> https://inattv1290.xyz/channel.html?id=eu2
+2026-04-11 06:58:04,468 [INFO]     ✅ [network] https://anx.d72577a9dd0ec48.sbs/eu2/mono.m3u8
+2026-04-11 06:58:04,474 [INFO]     🖼️ 1 iframe bulundu
+2026-04-11 06:58:04,481 [INFO]     iframe[0] id=frame_0 src=https://inattv1290.xyz/sayac.html
+2026-04-11 06:58:08,499 [INFO]       🌐 [iframe-network] https://anx.d72577a9dd0ec48.sbs/eu2/mono.m3u8
+2026-04-11 06:58:08,554 [INFO]   ✅ Euro Sport 27/24CANLI: 1 link bulundu
+2026-04-11 06:58:10,685 [INFO] 
+Chrome kapatıldı
+2026-04-11 06:58:10,685 [INFO] 
+=================================================================
+2026-04-11 06:58:10,685 [INFO] 📊 TOPLAM: 30 M3U8 linki bulundu
+2026-04-11 06:58:10,685 [INFO] =================================================================
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: Beşiktaş - Antalyaspor20:00
+2026-04-11 06:58:10,686 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=zirve
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: Formula 1 - Antrenman Turları14:30
+2026-04-11 06:58:10,686 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b4
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: Formula 1 - Antrenman Turları14:30
+2026-04-11 06:58:10,686 [INFO]      Eski: https://anx.d72577a9dd0ec48.sbs/zirve/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/b4/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: Karlsruher - A. Bielefeld19:30
+2026-04-11 06:58:10,686 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t3
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t3/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: F. Düsseldorf - Holstein Kiel19:30
+2026-04-11 06:58:10,686 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t2
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: F. Düsseldorf - Holstein Kiel19:30
+2026-04-11 06:58:10,686 [INFO]      Eski: https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t3/mono.m3u8
+2026-04-11 06:58:10,686 [INFO]   🔄 Güncellendi: Dubai - Anadolu Efes21:00
+2026-04-11 06:58:10,686 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ss
+2026-04-11 06:58:10,686 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/ss/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: Dubai - Anadolu Efes21:00
+2026-04-11 06:58:10,687 [INFO]      Eski: https://anx.d72577a9dd0ec48.sbs/ss/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t2/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: Augsburg - Hoffenheim21:30
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t1
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: West Ham - Wolverhampton22:00
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b3
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: West Ham - Wolverhampton22:00
+2026-04-11 06:58:10,687 [INFO]      Eski: https://anx.d72577a9dd0ec48.sbs/t1/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/b3/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: BeIN Sports 27/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b2
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/b2/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: BeIN Sports 27/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: https://anx.d72577a9dd0ec48.sbs/b2/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/b3/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: BeIN Sports 57/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b5
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/b5/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: BeIN Max 17/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=bm1
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/bm1/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: BeIN Max 27/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=bm2
+2026-04-11 06:58:10,687 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/bm2/mono.m3u8
+2026-04-11 06:58:10,687 [INFO]   🔄 Güncellendi: S Sport 27/24CANLI
+2026-04-11 06:58:10,687 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ss2
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/ss2/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: Tivibu 47/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t4
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/t4/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: Smartspor7/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=smarts
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/smarts/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: Smartspor 27/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=sms2
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/sms2/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: TRT Spor7/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trtspor
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/trtspor/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: TRT Spor 27/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trtspor2
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/trtspor2/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: TRT 17/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trt1
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/trt1/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: A Spor7/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=as
+2026-04-11 06:58:10,688 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/as/mono.m3u8
+2026-04-11 06:58:10,688 [INFO]   🔄 Güncellendi: ATV7/24CANLI
+2026-04-11 06:58:10,688 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=atv
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/atv/mono.m3u8
+2026-04-11 06:58:10,689 [INFO]   🔄 Güncellendi: TV 87/24CANLI
+2026-04-11 06:58:10,689 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=tv8
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/tv8/mono.m3u8
+2026-04-11 06:58:10,689 [INFO]   🔄 Güncellendi: TV 8,57/24CANLI
+2026-04-11 06:58:10,689 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=tv85
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/tv85/mono.m3u8
+2026-04-11 06:58:10,689 [INFO]   🔄 Güncellendi: NBA TV7/24CANLI
+2026-04-11 06:58:10,689 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=nbatv
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/nbatv/mono.m3u8
+2026-04-11 06:58:10,689 [INFO]   🔄 Güncellendi: Euro Sport 17/24CANLI
+2026-04-11 06:58:10,689 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=eu1
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/eu1/mono.m3u8
+2026-04-11 06:58:10,689 [INFO]   🔄 Güncellendi: Euro Sport 27/24CANLI
+2026-04-11 06:58:10,689 [INFO]      Eski: #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=eu2
+2026-04-11 06:58:10,689 [INFO]      Yeni: https://anx.d72577a9dd0ec48.sbs/eu2/mono.m3u8
+2026-04-11 06:58:10,689 [INFO] 
+Özet: 30 güncellendi | 0 eklendi | 0 değişmedi
+2026-04-11 06:58:10,690 [INFO] ✅ M3U yazıldı: inattv_playlist.m3u (16.4 KB, 26 kanal)
+2026-04-11 06:58:12,021 [INFO] ✅ GitHub güncellendi
+2026-04-11 06:58:12,021 [INFO] 📺 M3U URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
+2026-04-11 06:58:12,023 [INFO] 
+=================================================================
+2026-04-11 06:58:12,023 [INFO] ✅ Tamamlandı!
+2026-04-11 06:58:12,023 [INFO] 📺 IPTV URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
+2026-04-11 06:58:12,023 [INFO] =================================================================
