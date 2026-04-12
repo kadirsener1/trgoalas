@@ -1,7 +1,7 @@
-#EXTM3U x-tvg-url="" playlist-name="INA TV" playlist-desc="Son guncelleme: 2026-04-11 18:38:30"
+#EXTM3U x-tvg-url="" playlist-name="INA TV" playlist-desc="Son guncelleme: 2026-04-12 01:53:10"
 # Kaynak   : https://inattv1290.xyz/
-# Guncelleme: 2026-04-11 18:38:30
-# Toplam   : 28 INA TV + 0 diger
+# Guncelleme: 2026-04-12 01:53:10
+# Toplam   : 29 INA TV + 0 diger
 
 # ===== INA TV CANLI YAYINLAR =====
 #EXTINF:-1 tvg-id="as" tvg-name="A Spor7/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=as",A Spor7/24CANLI
@@ -12,23 +12,23 @@ https://j6v.d72577a9dd0ec50.sbs/as/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xy
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=atv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/atv/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Datv&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="b2" tvg-name="Başakşehir - Gençlerbirliği14:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b2",Başakşehir - Gençlerbirliği14:30
+#EXTINF:-1 tvg-id="b2" tvg-name="BeIN Sports 27/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b2",BeIN Sports 27/24CANLI
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/b2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Db2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="b3" tvg-name="Arsenal - Bournemouth14:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b3",Arsenal - Bournemouth14:30
+#EXTINF:-1 tvg-id="b3" tvg-name="Sunderland - Tottenham16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b3",Sunderland - Tottenham16:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/b3/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Db3&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="b4" tvg-name="Brentford - Everton17:00CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b4",Brentford - Everton17:00CANLI
+https://j6v.d72577a9dd0ec50.sbs/b4/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Db3&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-id="b4" tvg-name="Not. Forest - Aston Villa16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b4",Not. Forest - Aston Villa16:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/b4/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Db4&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="b5" tvg-name="Safiport Erokspor - Mersin Spor13:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b5",Safiport Erokspor - Mersin Spor13:00
+#EXTINF:-1 tvg-id="b5" tvg-name="Glint Manisa Basket - Tofaş13:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=b5",Glint Manisa Basket - Tofaş13:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=b5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/b5/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Db5&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="bm1" tvg-name="BeIN Max 17/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=bm1",BeIN Max 17/24CANLI
+#EXTINF:-1 tvg-id="bm1" tvg-name="Crystal Palace - Newcastle16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=bm1",Crystal Palace - Newcastle16:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=bm1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/bm1/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dbm1&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -44,14 +44,18 @@ https://j6v.d72577a9dd0ec50.sbs/eu1/mono.m3u8|Referer=https%3A%2F%2Finattv1290.x
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=eu2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/eu2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Deu2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="ex4" tvg-name="Wolfsburg - E. Frankfurt16:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ex4",Wolfsburg - E. Frankfurt16:30
-#EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ex4
+#EXTINF:-1 tvg-id="ex2" tvg-name="Fortuna Köln - Schalke II15:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ex2",Fortuna Köln - Schalke II15:00
+#EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ex2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/ex4/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dex4&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="ex7" tvg-name="Al Akhdoud - Al Nassr21:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ex7",Al Akhdoud - Al Nassr21:00
+https://j6v.d72577a9dd0ec50.sbs/ex2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dex2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-id="ex4" tvg-name="Wolfsburg - E. Frankfurt16:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ex4",Wolfsburg - E. Frankfurt16:30
+#EXTVLCOPT:http-referrer=https://inattv1290.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ex4|Referer=https%3A%2F%2Finattv1290.xyz%2F&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-id="ex7" tvg-name="Falkirk - Rangers14:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ex7",Falkirk - Rangers14:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ex7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/ex7/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dex7&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://j6v.d72577a9dd0ec50.sbs/t1/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dex7&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
 #EXTINF:-1 tvg-id="inattv" tvg-name="iNat TV" tvg-logo="https://inattv1290.xyz/images/logo.png" group-title="INA TV",iNat TV
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -60,47 +64,47 @@ https://j6v.d72577a9dd0ec50.sbs/ex7/mono.m3u8|Referer=https%3A%2F%2Finattv1290.x
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=nbatv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/nbatv/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dnbatv&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="smarts" tvg-name="Japonya U20 (K) - Vietnam U20 (K)12:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=smarts",Japonya U20 (K) - Vietnam U20 (K)12:00
+#EXTINF:-1 tvg-id="smarts" tvg-name="Kuzey Kore - Avustralya12:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=smarts",Kuzey Kore - Avustralya12:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=smarts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/smarts/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dsmarts&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="sms2" tvg-name="Çin U20 (K) - Özbekistan U20 (K)16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=sms2",Çin U20 (K) - Özbekistan U20 (K)16:00
+#EXTINF:-1 tvg-id="sms2" tvg-name="Tayland - Güney Kore16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=sms2",Tayland - Güney Kore16:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=sms2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/ss/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dsms2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="ss" tvg-name="R. Sociedad - Alaves15:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ss",R. Sociedad - Alaves15:00
+https://j6v.d72577a9dd0ec50.sbs/sms2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dsms2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-id="ss" tvg-name="Osasuna - Real Betis15:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ss",Osasuna - Real Betis15:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ss
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/ss/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dss&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://j6v.d72577a9dd0ec50.sbs/t3/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dss&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
 #EXTINF:-1 tvg-id="ss2" tvg-name="S Sport 27/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=ss2",S Sport 27/24CANLI
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=ss2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/ss2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dss2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="t1" tvg-name="Cagliari - Cremonese16:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t1",Cagliari - Cremonese16:00
+#EXTINF:-1 tvg-id="t1" tvg-name="Genoa - Sassuolo13:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t1",Genoa - Sassuolo13:30
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/t1/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt1&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="t2" tvg-name="Hertha Berlin - Kaiserslautern14:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t2",Hertha Berlin - Kaiserslautern14:00
+#EXTINF:-1 tvg-id="t2" tvg-name="Elversberg - Schalke 0414:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t2",Elversberg - Schalke 0414:30
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/t2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="t3" tvg-name="Nürnberg - D. Dresden14:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t3",Nürnberg - D. Dresden14:00
+#EXTINF:-1 tvg-id="t3" tvg-name="Paderborn - Magdeburg14:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t3",Paderborn - Magdeburg14:30
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/t3/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt3&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="t4" tvg-name="Preussen M. - Greuther Fürth14:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t4",Preussen M. - Greuther Fürth14:00
+https://j6v.d72577a9dd0ec50.sbs/t2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt3&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-id="t4" tvg-name="NEC Nijmegen - Feyenoord15:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=t4",NEC Nijmegen - Feyenoord15:30
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=t4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://j6v.d72577a9dd0ec50.sbs/t2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt4&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://j6v.d72577a9dd0ec50.sbs/t4/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dt4&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
 #EXTINF:-1 tvg-id="trt1" tvg-name="TRT 17/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=trt1",TRT 17/24CANLI
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trt1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/trt1/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dtrt1&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="trtspor" tvg-name="Sarıyer - Hatayspor13:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=trtspor",Sarıyer - Hatayspor13:30
+#EXTINF:-1 tvg-id="trtspor" tvg-name="Vanspor FK - Manisa FK13:30" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=trtspor",Vanspor FK - Manisa FK13:30
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trtspor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/trtspor/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dtrtspor&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="trtspor2" tvg-name="Zeren Spor (K) - Eczacıbaşı Dynavit (K)13:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=trtspor2",Zeren Spor (K) - Eczacıbaşı Dynavit (K)13:00
+#EXTINF:-1 tvg-id="trtspor2" tvg-name="Galatasaray Daikin (K) - THY (K)13:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=trtspor2",Galatasaray Daikin (K) - THY (K)13:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=trtspor2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/trtspor2/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dtrtspor2&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -108,11 +112,11 @@ https://j6v.d72577a9dd0ec50.sbs/trtspor2/mono.m3u8|Referer=https%3A%2F%2Finattv1
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=tv8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/tv8/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dtv8&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="tv85" tvg-name="Sheffield Utd - Hull City17:00CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=tv85",Sheffield Utd - Hull City17:00CANLI
+#EXTINF:-1 tvg-id="tv85" tvg-name="TV 8,57/24CANLI" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=tv85",TV 8,57/24CANLI
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=tv85
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/tv85/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dtv85&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
-#EXTINF:-1 tvg-id="zirve" tvg-name="Kayserispor - Fenerbahçe20:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=zirve",Kayserispor - Fenerbahçe20:00
+#EXTINF:-1 tvg-id="zirve" tvg-name="Galatasaray - Kocaelispor20:00" group-title="INA TV" tvg-url="https://inattv1290.xyz/channel.html?id=zirve",Galatasaray - Kocaelispor20:00
 #EXTVLCOPT:http-referrer=https://inattv1290.xyz/channel.html?id=zirve
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://j6v.d72577a9dd0ec50.sbs/zirve/mono.m3u8|Referer=https%3A%2F%2Finattv1290.xyz%2Fchannel.html%3Fid%3Dzirve&User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36
