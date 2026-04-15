@@ -7194,3 +7194,31 @@ Chrome kapatıldı
 2026-04-14 19:07:43,163 [INFO] ✅ Tamamlandı!
 2026-04-14 19:07:43,163 [INFO] 📺 IPTV URL: https://raw.githubusercontent.com/kadirsener1/trgoalas/main/inattv_playlist.m3u
 2026-04-14 19:07:43,163 [INFO] =================================================================
+2026-04-15 01:27:50,227 [INFO] =================================================================
+2026-04-15 01:27:50,227 [INFO] 🚀 INA TV M3U8 Scraper Başladı
+2026-04-15 01:27:50,227 [INFO] ⏰ 2026-04-15 01:27:50
+2026-04-15 01:27:50,227 [INFO] 🌐 Hedef: https://inattv1290.xyz/
+2026-04-15 01:27:50,227 [INFO] =================================================================
+2026-04-15 01:27:50,227 [INFO] Mevcut M3U: 31 INA TV kanalı, 0 diğer kanal
+2026-04-15 01:27:50,228 [INFO] 
+Chrome başlatılıyor...
+2026-04-15 01:27:50,228 [INFO] ====== WebDriver manager ======
+2026-04-15 01:27:52,319 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-15 01:27:52,363 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-15 01:27:52,396 [INFO] There is no [linux64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-04-15 01:27:52,396 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-15 01:27:52,498 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-15 01:27:52,505 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-15 01:27:52,505 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/linux64/chromedriver-linux64.zip
+2026-04-15 01:27:52,556 [INFO] Driver downloading response is 200
+2026-04-15 01:27:52,660 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-15 01:27:52,814 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165]
+2026-04-15 01:27:57,699 [INFO] Ana sayfa taranıyor: https://inattv1290.xyz/
+2026-04-15 01:28:06,114 [WARNING] A tag ile kanal bulunamadı, JS render deneniyor...
+2026-04-15 01:28:06,118 [INFO] 
+Toplam 0 kanal bulundu
+
+2026-04-15 01:28:06,118 [ERROR] ❌ Hiç kanal bulunamadı!
+2026-04-15 01:28:06,118 [ERROR] Site yapısı değişmiş olabilir.
+2026-04-15 01:28:06,179 [INFO] 
+Chrome kapatıldı
