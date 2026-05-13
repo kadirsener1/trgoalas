@@ -10412,3 +10412,31 @@ Toplam 0 kanal bulundu
 2026-05-13 14:08:37,226 [ERROR] Site yapısı değişmiş olabilir.
 2026-05-13 14:08:37,288 [INFO] 
 Chrome kapatıldı
+2026-05-13 19:41:26,222 [INFO] =================================================================
+2026-05-13 19:41:26,222 [INFO] 🚀 INA TV M3U8 Scraper Başladı
+2026-05-13 19:41:26,222 [INFO] ⏰ 2026-05-13 19:41:26
+2026-05-13 19:41:26,222 [INFO] 🌐 Hedef: https://inattv1290.xyz/
+2026-05-13 19:41:26,223 [INFO] =================================================================
+2026-05-13 19:41:26,223 [INFO] Mevcut M3U: 31 INA TV kanalı, 0 diğer kanal
+2026-05-13 19:41:26,223 [INFO] 
+Chrome başlatılıyor...
+2026-05-13 19:41:26,223 [INFO] ====== WebDriver manager ======
+2026-05-13 19:41:26,572 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 19:41:26,655 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 19:41:26,733 [INFO] There is no [linux64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-13 19:41:26,733 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 19:41:26,949 [INFO] WebDriver version 148.0.7778.167 selected
+2026-05-13 19:41:26,952 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/linux64/chromedriver-linux64.zip
+2026-05-13 19:41:26,952 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/linux64/chromedriver-linux64.zip
+2026-05-13 19:41:27,022 [INFO] Driver downloading response is 200
+2026-05-13 19:41:27,190 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 19:41:27,373 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/148.0.7778.167]
+2026-05-13 19:41:28,622 [INFO] Ana sayfa taranıyor: https://inattv1290.xyz/
+2026-05-13 19:41:37,259 [WARNING] A tag ile kanal bulunamadı, JS render deneniyor...
+2026-05-13 19:41:37,263 [INFO] 
+Toplam 0 kanal bulundu
+
+2026-05-13 19:41:37,263 [ERROR] ❌ Hiç kanal bulunamadı!
+2026-05-13 19:41:37,263 [ERROR] Site yapısı değişmiş olabilir.
+2026-05-13 19:41:37,324 [INFO] 
+Chrome kapatıldı
