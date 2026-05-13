@@ -10358,3 +10358,29 @@ Toplam 0 kanal bulundu
 2026-05-13 02:13:03,370 [ERROR] Site yapısı değişmiş olabilir.
 2026-05-13 02:13:03,430 [INFO] 
 Chrome kapatıldı
+2026-05-13 08:35:01,814 [INFO] =================================================================
+2026-05-13 08:35:01,814 [INFO] 🚀 INA TV M3U8 Scraper Başladı
+2026-05-13 08:35:01,814 [INFO] ⏰ 2026-05-13 08:35:01
+2026-05-13 08:35:01,814 [INFO] 🌐 Hedef: https://inattv1290.xyz/
+2026-05-13 08:35:01,814 [INFO] =================================================================
+2026-05-13 08:35:01,815 [INFO] Mevcut M3U: 31 INA TV kanalı, 0 diğer kanal
+2026-05-13 08:35:01,815 [INFO] 
+Chrome başlatılıyor...
+2026-05-13 08:35:01,815 [INFO] ====== WebDriver manager ======
+2026-05-13 08:35:02,860 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 08:35:02,896 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 08:35:02,923 [INFO] There is no [linux64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-13 08:35:02,923 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 08:35:03,013 [INFO] WebDriver version 148.0.7778.167 selected
+2026-05-13 08:35:03,019 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/linux64/chromedriver-linux64.zip
+2026-05-13 08:35:03,019 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/linux64/chromedriver-linux64.zip
+2026-05-13 08:35:03,052 [INFO] Driver downloading response is 200
+2026-05-13 08:35:03,145 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-13 08:35:03,279 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/148.0.7778.167]
+2026-05-13 08:35:06,094 [INFO] Ana sayfa taranıyor: https://inattv1290.xyz/
+2026-05-13 08:37:06,195 [ERROR] Kanal listesi alınamadı: HTTPConnectionPool(host='localhost', port=38801): Read timed out. (read timeout=120)
+2026-05-13 08:37:06,279 [ERROR] ❌ Hiç kanal bulunamadı!
+2026-05-13 08:37:06,279 [ERROR] Site yapısı değişmiş olabilir.
+2026-05-13 08:39:06,372 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=38801): Read timed out. (read timeout=120)")': /session/e37408339a9171a79a50b66248bb7784
+2026-05-13 08:40:06,183 [INFO] 
+Chrome kapatıldı
