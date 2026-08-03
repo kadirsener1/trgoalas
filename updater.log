@@ -19201,3 +19201,30 @@ Toplam 0 kanal bulundu
 2026-08-03 01:55:13,199 [ERROR] Site yapısı değişmiş olabilir.
 2026-08-03 01:55:13,260 [INFO] 
 Chrome kapatıldı
+2026-08-03 09:23:34,002 [INFO] =================================================================
+2026-08-03 09:23:34,002 [INFO] 🚀 INA TV M3U8 Scraper Başladı
+2026-08-03 09:23:34,002 [INFO] ⏰ 2026-08-03 09:23:34
+2026-08-03 09:23:34,002 [INFO] 🌐 Hedef: https://inattv1290.xyz/
+2026-08-03 09:23:34,002 [INFO] =================================================================
+2026-08-03 09:23:34,003 [INFO] Mevcut M3U: 31 INA TV kanalı, 0 diğer kanal
+2026-08-03 09:23:34,003 [INFO] 
+Chrome başlatılıyor...
+2026-08-03 09:23:34,003 [INFO] ====== WebDriver manager ======
+2026-08-03 09:23:34,097 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-03 09:23:34,209 [INFO] There is no [linux64] chromedriver "151.0.7922.71" for browser google-chrome "151.0.7922" in cache
+2026-08-03 09:23:34,244 [INFO] There is no [linux64] chromedriver "151.0.7922.71" for browser google-chrome "151.0.7922" in cache
+2026-08-03 09:23:34,244 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-03 09:23:34,413 [INFO] WebDriver version 151.0.7922.71 selected
+2026-08-03 09:23:34,419 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.71/linux64/chromedriver-linux64.zip
+2026-08-03 09:23:34,419 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.71/linux64/chromedriver-linux64.zip
+2026-08-03 09:23:34,551 [INFO] Driver downloading response is 200
+2026-08-03 09:23:35,023 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.71]
+2026-08-03 09:23:36,470 [INFO] Ana sayfa taranıyor: https://inattv1290.xyz/
+2026-08-03 09:23:45,078 [WARNING] A tag ile kanal bulunamadı, JS render deneniyor...
+2026-08-03 09:23:45,082 [INFO] 
+Toplam 0 kanal bulundu
+
+2026-08-03 09:23:45,083 [ERROR] ❌ Hiç kanal bulunamadı!
+2026-08-03 09:23:45,083 [ERROR] Site yapısı değişmiş olabilir.
+2026-08-03 09:23:45,145 [INFO] 
+Chrome kapatıldı
